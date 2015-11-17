@@ -3,13 +3,16 @@
     margin:0;
     padding:0;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 html {
     background: url("https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/0/9/9832/seamless-backgrounds-05-o.jpg?1362928714");
 }
 body {
     font-family: 'Lora', serif;
     font-size:18px;
-    color: #EDEAE6;
+    color: #F0E1CE;
 }
 a {
     text-decoration: none;
@@ -19,7 +22,6 @@ a {
 }
 audio {
     width:300px;
-    margin:0 auto;
 }
 #bg{
     margin-top:-20px;
@@ -68,6 +70,8 @@ audio {
     text-align: center;
     width:1000px;
     margin:0px auto;
+    padding-top:10px;
+    padding-bottom: 10px;
 }
 
 .menu li {
@@ -145,16 +149,63 @@ audio {
 
 /*song sites*/
 .song { /*div*/
-    margin-top:30px;
+    /*margin-top:30px;
+    display:inline-block;*/
+    width:auto;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
 }
 .songlyrics { /*p tag*/
     padding:3px;
-    font-size:16px;
+    font-size:18px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    width:300px;
+    float:left;
+    line-height:50px;
+}
+.comment {
+    margin-left:100px;
+    padding: 2px;
+    border: dashed 1px #F0E1CE;
+    color:#D2D1D2;
+    padding:13px;
+    border-radius:10px;
+}
+.comment a{
+    text-decoration: none;
+    color:#A7C0DE;
+    font-style: italic;
+}
+.comment a:visisted{
+    text-decoration: none;
+    color:#A7C0DE;
+    font-style: italic;
+}
+#needle {
+    background-image: url("record.jpg");
+    background-size:100% 300px;
+    background-repeat:no-repeat;
+    text-align:;
+    font-size:60px;
+    padding-top:15px;
+    padding-left:50px;
+    font-family: '!Paul Maul';
+    margin-top:3%;
+    color: #222725;
+    line-height: 60px;
+}
+#needletext {
+    width:500px;
     text-align:center;
 }
+
 /*Biography*/
 .content {
-    width:60%;
+    width:auto;
     margin-left:auto;
     margin-right:auto;
 }
@@ -163,3 +214,4 @@ audio {
     line-height: 50px;
     text-indent: 50px;
 }
+/*Cayla Tries*/

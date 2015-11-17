@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="animate.css"/>
+    <script src="wow.min.js"></script>
+    <script>var wow = new WOW(
+      {
+        boxClass:     'wow',      // animated element css class (default is wow)
+        animateClass: 'animated', // animation css class (default is animated)
+        offset:       200,          // distance to the element when triggering the animation (default is 0)
+        mobile:       true,       // trigger animations on mobile devices (default is true)
+        live:         true,       // act on asynchronously loaded content (default is true)
+        callback:     function(box) {
+          // the callback is fired every time an animation is started
+          // the argument that is passed in is the DOM node being animated
+        },
+        scrollContainer: null // optional scroll container selector, otherwise use window
+      }
+    );
+    wow.init();
+    </script>
+    <style>
+    ::-webkit-scrollbar {
+        display: none;
+    }
+        #line {
+
+        }
+        #expp1 {
+            margin-left:100px;
+            padding: 2px;
+            border: dashed 1px black;
+        }
+        .boxes {
+            height:300px;
+            width:300px;
+            border: 3px dashed;
+            background-color:AliceBlue;
+        }
+        #box {
+            height:300px;
+            width:300px;
+            border:solid;
+        }
+        hr {
+   -moz-transform: rotate(7.5deg);
+   -o-transform: rotate(7.5deg);
+   -webkit-transform: rotate(7.5deg);
+   -ms-transform: rotate(7.5deg);
+   transform: rotate(7.5deg);
+   border-color:red;
+   border:dashed 1px;
+}
+    </style>
+</head>
+<body>
+
+    <h1 class="animated rollIn">
+        asdfkja;lsdfkja;lsdfj;alsdkjf;alsdkjf;laksdjfadsf
+    </h1>
+    <br>
+    <hr>
+
+    <div class="boxes"></div>
+    <div class="boxes"></div>
+    <div class="boxes"></div>
+    <div class="boxes"></div>
+    <div class="boxes"></div>
+
+    <div class="wow animated bounceInUp">
+                 Content to Reveal Here
+    </div>
+    <div class="boxes"></div>
+    <div class="boxes"></div>
+    <div class="boxes"></div>
+    <table>
+  <tr>
+    <td>Looking at the cop in the rear view mirror<br>
+Probably should have stopped but the crosswalk was clear<br>
+I'll just imagine it's a ticket to a Broadway show</td>
+    <td> <div id="line"></div>
+        <div class="wow animated slideInRight" id="expp1">so if I have the xplanation here..</div></td>
+  </tr>
+  <tr>
+    <td>Looking at the clouds and they seem kinda funny<br>
+Probably gonna rain but my outlook is sunny<br>
+I'll just imagine that I'm laying out in Mexico</td>
+    <td></td>
+  </tr>
+</table>
+<div class="boxes"></div>
+<div class="boxes"></div>
+<div class="boxes"></div>
+</body>
+</html>
