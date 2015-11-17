@@ -10,7 +10,7 @@ html {
     background: url("https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/0/9/9832/seamless-backgrounds-05-o.jpg?1362928714");
 }
 body {
-    font-family: 'Lora', serif;
+    font-family: 'Neucha', serif;
     font-size:18px;
     color: #F0E1CE;
 }
@@ -33,18 +33,23 @@ audio {
             #EBEAE8 15px,
             #EBEAE8 30px
         );*/
-    opacity:.9;
+    opacity:1;
     overflow:hidden;
     position:relative;
 
 }
-#title p {
-    text-align: left;
+#title {
     font-size:60px;
-    text-indent:100px;
     font-family: '!Paul Maul';
     padding:0px;
     margin-top:3%;
+}
+#bb {
+    text-align:left;
+    text-indent:100px;
+}
+#wawm {
+    text-align:right;
 }
 #title img {
     height:20%;
@@ -63,7 +68,7 @@ audio {
 .menu-wrap {
     width:100%;
     background:#686868;
-    opacity:.7;
+    opacity:1;
 }
 
 .menu {
@@ -202,16 +207,70 @@ audio {
     width:500px;
     text-align:center;
 }
+#tonight {
+    background-image: url("tonightsthenight.jpg");
+    background-size:100% 300px;
+    background-repeat:no-repeat;
+    text-align:;
+    font-size:60px;
+    padding-top:15px;
+    padding-left:50px;
+    font-family: '!Paul Maul';
+    margin-top:3%;
+    color: #0D1F22;
+    line-height: 60px;
+}
+#tonighttext {
+    width:500px;
+    text-align:center;
+}
+#oldman {
+    background-image: url("harvest.jpg");
+    background-size:100% 300px;
+    background-repeat:no-repeat;
+    font-size:60px;
+    padding-top:25px;
+    padding-left:50px;
+    font-family: '!Paul Maul', monospace;
+    margin-top:3%;
+    color:#222725;
+    line-height:60px;
+}
+#oldmantext {
+    width:500px;
 
+}
 /*Biography*/
 .content {
-    width:auto;
+    width:1000px;
     margin-left:auto;
     margin-right:auto;
+    padding:25px;
+    background-color:#F0E1CE;
+    color:#222725;
+    border-radius: 10px;
+}
+.biotitles {
+    font-size:30px;
+    font-family: '!Paul Maul', monospace;
 }
 .bio {
     font-size: 17px;
     line-height: 50px;
     text-indent: 50px;
+    font-family: 'Neucha';
+    padding-bottom: 20px;
+}
+/*biography images*/
+.imgcontainer {
+    width:auto;
+    height:auto;
+    overflow:hidden;
+    font-family: 'Neucha';
+    font-size:18px;
+    float:left;
+}
+.imgcontainer img {
+    float:left;
 }
 /*Cayla Tries*/
