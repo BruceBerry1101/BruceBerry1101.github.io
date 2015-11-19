@@ -42,7 +42,7 @@ audio {
     float:left;
 }*/
 .title {
-    font-family: '!Paul Maul';
+    font-family: '!Paul Maul',
     margin-top:3%;
 }
 #bb {
@@ -161,7 +161,7 @@ audio {
     opacity:.9;
     color:#222725;
     font-family:'Neucha', sans-serif;
-    font-size:18px;
+    font-size:15px;
     line-height: 50px;
     text-indent: 50px;
     padding-top:25px;
@@ -172,6 +172,22 @@ audio {
     border-radius:10px;
     margin-left:auto;
     margin-right:auto;
+}
+#readmore {
+    font-size:24px;
+    color:#559CAD;
+    text-align:center;
+    line-height: 30px;
+}
+#readmore a {
+    color:#4A5899;
+}
+#readmore a:visited {
+    color:#4A5899;
+}
+#readmore a:hover {
+    color:#102B3F;
+    transition: 3s;
 }
 
 /*song sites*/
@@ -263,6 +279,12 @@ audio {
 
 }
 /*Biography*/
+#biotitle {
+    font-size:60px;
+}
+.home {
+    padding:30px;
+}
 .content {
     width:100%;
     font-size: 18px;
@@ -282,6 +304,20 @@ audio {
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 10px;
+}
+.bio a {
+    color:inherit;
+    text-decoration: underline;
+}
+.bio a:visisted {
+    color:inherit;
+    text-decoration: underline;
+}
+.bio img {
+   padding:2px;
+   border:3px solid #021a40;
+   background-color:#FFFFFF;
+   margin:5px;
 }
 .immediatefam {
     background-color:#922D50;
@@ -303,3 +339,12 @@ audio {
     align:right;
 }*/
 /*Cayla Tries*/
+#footer {
+    margin-top: 3em;
+    height: auto;
+    bottom: 0;
+    padding-left: .7em;
+    padding-bottom: .3em;
+    text-align: left;
+    font-size: 1em;
+}
